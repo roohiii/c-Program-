@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float a,b,temp;
+    cout<<"Enter two number to swap" << endl;
+    cin>>a>>b;
+    temp = a;
+    a = b;
+    b = temp;
+    cout << "\nAfter swapping" << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    return 0;
+}
